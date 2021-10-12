@@ -1,0 +1,17 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "file": "tsc && node ./dist/\"${npm_config_file//ts/js}\""
+  },
+  "keywords": [],
+  "author": "Mark Doyle",
+  "license": "ISC",
+  "devDependencies": {
+    "@doylemark/eslint-config": "0.0.2",
+    "@doylemark/tsconfig": "^1.0.0",
+    "eslint": "^8.0.0"
+  }
+}
