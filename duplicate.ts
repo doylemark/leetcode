@@ -2,7 +2,7 @@
 // cannot create another array in memory, must sort in place
 // return length of array
 
-import { benchmark } from "./benchmarks/speed";
+import { benchmark } from "./benchmarks/benchmark";
 
 const removeDuplicates = (nums: number[]) => {
   for (let i = 0; i < nums.length; i++) {

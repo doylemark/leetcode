@@ -2,7 +2,7 @@
 // return true if any value appears at least twice in the array
 // return false if every element is distinct
 // avoid using includes() etc
-import { benchmark } from "./benchmarks/speed";
+import { benchmark } from "./benchmarks/benchmark";
 
 // very slow runtime, good mem usage
 const containsDuplicate = (nums: number[]) => {
