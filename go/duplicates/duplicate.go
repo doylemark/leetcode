@@ -5,6 +5,7 @@ import "fmt"
 func main() {
 	// fmt.Println(findDuplicates([]int{4, 3, 2, 7, 8, 2, 3, 1})) // 2, 3
 	fmt.Println(findDuplicatesFaster([]int{4, 3, 2, 7, 8, 2, 3, 1}))
+	fmt.Println(findDuplicatesFaster([]int{4, 4, 4, 4}))
 }
 
 // func findDuplicates(nums []int) []int {
@@ -30,7 +31,6 @@ func findDuplicatesFaster(nums []int) []int {
 
 	for _, num := range nums {
 		index := abs(num) - 1
-		fmt.Println(nums[index])
 		if nums[index] < 0 {
 			result = append(result, index+1)
 		} else {

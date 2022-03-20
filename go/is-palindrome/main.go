@@ -12,6 +12,7 @@ func main() {
 	fmt.Println(isPalindrome("radr"))
 	fmt.Println(isPalindrome("radar"))
 	fmt.Println(isPalindrome("noon"))
+	fmt.Println(isPalindrome("121"))
 }
 
 func isPalindrome(s string) bool {
